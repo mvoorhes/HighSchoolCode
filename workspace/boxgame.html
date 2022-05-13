@@ -1,0 +1,80 @@
+<!DOCTYPE HTML> 
+<html>
+<head>
+    <title>Box Game</title>
+</head>
+<style type="text/css">
+    body {
+            background-color:yellow;
+            font-family:monospace;
+        }
+    /*p {*/
+    /*    position:absolute;*/
+    /*    left:75%;*/
+    /*    top:10%;*/
+    /*}*/
+    /*#scoredisplay {*/
+    /*    position:absolute;*/
+    /*    left:75%;*/
+    /*    top:10%;*/
+    /*}*/
+    #container {
+        vertical-align:top;
+        width:45%;
+        display:inline-block;
+    }
+    li {
+        vertical-align:top;
+        text-align:left;
+        width:45%;
+        display:inline-block;
+    }
+    #restart {
+        width:75px;
+        height:25px;
+        font-size:15px;
+        font-family:monospace;
+    }
+    #pause {
+        width:75px;
+        height:25px;
+        font-size:15px;
+        font-family:monospace;
+    }
+    td {
+        width:45%;
+    }
+</style>
+<body>
+    <center>
+        <h1>Box Game (in development stages)</h1>
+    <canvas id="mycanvas" width="400px" height="500px" style="border: 2px solid black"></canvas>
+    <div id="container">
+    <h3>Controls:</h3>
+    <p>Left and right arrow keys: Moves left and right.</p>
+    <p>Spacebar: Shoot</p>
+    <p>Press the restart button or press r on the keyboard to start over.</p>
+    <input type="button" value="restart" id="restart">
+    <p>Press the pause button or press p on the keyboard to pause the game.</p>
+    <input type="button" value="pause" id="pause">
+    <h3>NOTICE:</h3>
+    <p>If you do click the restart button, click the game after you click restart before you press the spacebar so you don't keep restarting the game.</p>
+    <p>Same thing with the pause button.</p>
+    <div id="scoredisplay">
+        
+    </div>
+    </div>
+    </center>
+    <script src="boxgame.js"></script>
+    
+         <ul id="navbar">
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="hardware.html">Hardware</a></li>
+            <li><a href="calc.html">Calculator</a></li>
+            <li><a href="information.html">Top 10 Lists</a></li>
+            <li><a href="Vindinium.html">Info about Vindinium</a></li>
+            <li><a href="Modeling.html">Game Controller</a></li>
+            <li><a href="index.html">Index</a></li>
+        </ul>
+</body>
+</html>

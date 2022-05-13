@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<title>Calculator</title>
+</head>
+<style type="text/css">
+        body {
+            background-color:yellow;
+            font-family:monospace;
+        }
+        .input {
+            width:100px;
+            height:30px;
+            font-size:15px;
+            font-family:monospace;
+        }
+        .dropdown {
+            width:60px;
+            height:35px;
+            font-size:15px;
+            font-family:monospace;
+        }
+        #submitButton {
+            width:100px;
+            height:35px;
+            font-size:15px;
+            font-family:monospace;
+        }
+        .calculatortext {
+            font-size:15px;
+            position:absolute;
+            left:43%;
+        }
+        #navbar {
+            position:absolute;
+            top:25%;
+        }
+            
+    </style>
+<body>
+    <center>
+        <h1>Basic Calculator</h1>
+<input type ="text" name="input1" id="input1" class="input">
+    <select id="dropdown" class="dropdown">
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="x">x</option>
+        <option value="/">/</option>
+        <option value="^">^</option>
+        <option value="sqrt">sqrt</option>
+        <option value="cbrt">cbrt</option>
+    </select>
+    <input type ="text" name="input2" id="input2" class="input">
+    <input type="button" value="Calculate" id="submitButton" />
+
+    <p class="calculatortext">The answer is: <span id="display"></span></p>
+<script src="calculator.js" ></script>
+</center>
+        <ul id="navbar">
+            <li><a href="aboutme.html">About Me</a></li>
+            <li><a href="hardware.html">Hardware</a></li>
+            <li><a href="boxgame.html">Box Game (in development stages)</a></li>
+            <li><a href="information.html">Top 10 Lists</a></li>
+            <li><a href="Vindinium.html">Info about Vindinium</a></li>
+            <li><a href="Modeling.html">Game Controller</a></li>
+            <li><a href="index.html">Index</a></li>
+        </ul>
+        
+</body>
+</html>
